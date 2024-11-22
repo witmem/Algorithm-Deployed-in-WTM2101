@@ -1,0 +1,107 @@
+
+QWidget#firstFrame{
+border:2px solid #e3e3e3;
+border-radius: 6px;
+}
+QFrame#secondFrame{
+border-top:2px solid #e3e3e3;
+border-radius: 0px;
+}
+QWidget#tabwidget{
+background-color:#FFFFFF;
+}
+QTabWidget:focus{
+padding:-1px;
+background-color:transparent;
+}
+QTabWidget::pane{
+border-top: 2px solid rgba(99,99,99,0.1);
+
+border-bottom: none;
+border-left: none;
+border-right: none;
+top: -2px;
+color:palette(WindowText);
+}
+QTabBar::focus{
+outline: none;
+}
+QTabBar::tab{
+min-width: 120px;
+min-height:30px;
+color:palette(WindowText);
+background:transparent;
+margin-right:20px;
+}
+QTabBar::tab:first:selected{
+background:#FFFFFF;
+border-top: none;
+border-left: none;
+border-right: none;
+color:#3D6BE5;
+}
+QTabBar::tab:first:!selected {
+border-bottom: 2px solid rgba(99,99,99,0.1);
+}
+QTabBar::tab:first:hover:!selected{
+border-bottom: 3px solid #3D6BE5;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+QTabBar::tab:middle:selected {
+background:#FFFFFF;
+border-top: none;
+border-left: none;
+border-right: none;
+color:#3D6BE5;
+}
+QTabBar::tab:middle:!selected {
+border-bottom: 2px solid rgba(99,99,99,0.1);
+}
+QTabBar::tab:middle:hover:!selected {
+border-bottom: 3px solid #3D6BE5;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+QTabBar::tab:last:selected {
+background:#ffffff;
+border-top: none;
+border-left: none;
+border-right: none;
+color:#3D6BE5;
+}
+QTabBar::tab:last:!selected {
+border-bottom: 2px solid rgba(99,99,99,0.1);
+}
+QTabBar::tab:last:hover:!selected {
+border-bottom: 3px solid #3D6BE5;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+QStatusBar::item {
+border: 1px solid #5CACEE;
+border-radius: 3px;
+}
+QPushButton#importBtn{
+background-color:#3790FA;
+border-radius: 6px;
+color:#FFFFFF;
+}
+
+QPushButton#importBtn:hover{
+background-color:#3D6BE5;
+border-radius: 6px;
+color:#FFFFFF;
+}
+QPushButton#importBtn:pressed{
+background-color:#0078d7;
+border-radius: 6px;
+color:#FFFFFF;
+}
+
+QLineEdit#customEdit{
+min-height:25px;
+}

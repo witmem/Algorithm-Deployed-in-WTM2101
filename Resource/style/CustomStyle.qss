@@ -1,0 +1,129 @@
+QWidget#tabwidget{
+background-color:#FFFFFF;
+}
+QTabWidget:focus{
+padding:-1px;
+background-color:transparent;
+}
+QTabWidget::pane{
+border-top: 2px solid rgba(99,99,99,0.1);
+
+border-bottom: none;
+border-left: none;
+border-right: none;
+top: -2px;
+color:palette(WindowText);
+}
+QTabBar::focus{
+outline: none;
+}
+QTabBar::tab{
+min-width: 120px;
+min-height:30px;
+color:palette(WindowText);
+background:transparent;
+margin-right:20px;
+}
+QTabBar::tab:first:selected{
+background:#FFFFFF;
+border-top: none;
+border-left: none;
+border-right: none;
+color:#3D6BE5;
+}
+QTabBar::tab:first:!selected {
+border-bottom: 2px solid rgba(99,99,99,0.1);
+}
+QTabBar::tab:first:hover:!selected{
+border-bottom: 3px solid #3D6BE5;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+QTabBar::tab:middle:selected {
+background:#FFFFFF;
+border-top: none;
+border-left: none;
+border-right: none;
+color:#3D6BE5;
+}
+QTabBar::tab:middle:!selected {
+border-bottom: 2px solid rgba(99,99,99,0.1);
+}
+QTabBar::tab:middle:hover:!selected {
+border-bottom: 3px solid #3D6BE5;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+QTabBar::tab:last:selected {
+background:#ffffff;
+border-top: none;
+border-left: none;
+border-right: none;
+color:#3D6BE5;
+}
+QTabBar::tab:last:!selected {
+border-bottom: 2px solid rgba(99,99,99,0.1);
+}
+QTabBar::tab:last:hover:!selected {
+border-bottom: 3px solid #3D6BE5;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+QStatusBar::item {
+border: 1px solid #5CACEE;
+border-radius: 3px;
+}
+QPushButton#importBtn{
+background-color:#3790FA;
+border-radius: 6px;
+color:#FFFFFF;
+width:90px;
+height:30px;
+}
+
+QPushButton#importBtn:hover{
+background-color:#3D6BE5;
+border-radius: 6px;
+color:#FFFFFF;
+}
+QPushButton#importBtn:pressed{
+background-color:#0078d7;
+border-radius: 6px;
+color:#FFFFFF;
+}
+
+QPushButton#grayBtn{
+background-color:#E6E6E6;
+border-radius: 6px;
+width:90px;
+height:30px;
+}
+
+QPushButton#grayBtn:hover{
+background-color:#DADADA;
+border-radius: 6px;
+}
+QPushButton#grayBtn:pressed{
+background-color:#B8B8B8;
+border-radius: 6px;
+}
+
+QLineEdit#customEdit{
+min-height:25px;
+}
+
+QProgressBar{
+border-radius:6px;
+height:15px;
+text-align:center;
+border:1px solid #E8EDF2;
+background-color: rgb(255, 255, 255);
+border-color: rgb(180, 180, 180);
+}
+QProgressBar:chunk{
+border-radius:6px;
+background-color:#3790FA;
+}

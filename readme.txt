@@ -1,0 +1,1 @@
+lib目录下为CH347设备的驱动文件，引用自https://www.wch.cn/downloads/CH347EVT_ZIP.html，未做修改。
